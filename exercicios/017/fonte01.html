@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas 
+            cm, mm, in (polegada), px, pt e pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, % e outras
+            16px geralmente é igual a 1em            
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /*  lighter (mais fina), normal, bold (um pouco mais grossa que o normal) e bolder (bem grossa) 
+            ou de 100 - 900 --- Tem mais nuance que o modelo de cima
+            */
+            font-style: italic ;
+
+        }
+
+        h1 {
+            /* shorthand (font) e para fazer precisa seguir a ordem sendo ela a que está a seguir */
+            /* font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nostrum, optio nihil aliquam numquam quis. Aliquam ullam vero modi natus nostrum totam recusandae odio, nesciunt necessitatibus quis, id distinctio accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam autem eum explicabo neque, reiciendis fuga ex minima harum necessitatibus praesentium adipisci voluptatibus, maxime voluptas. Repellat excepturi tenetur dicta inventore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi iusto facilis esse repudiandae qui minima laudantium iure blanditiis eius consequuntur similique veritatis quas, deserunt velit praesentium corporis rerum, incidunt laborum!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod dignissimos facilis voluptates veritatis, aspernatur, illo libero quo quibusdam expedita excepturi ducimus optio illum exercitationem sed error corrupti dolorum temporibus doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis consequuntur voluptas! Reprehenderit sapiente modi est maxime, iusto a neque eaque tempore maiores inventore laborum quidem nulla amet aperiam nesciunt.</p>
+</body>
+</html>

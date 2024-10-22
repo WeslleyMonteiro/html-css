@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho da janela do seu navegador </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/p.png" type="image/png"> <!--A segunda-->
+        <source media="(max-width: 1050px )" srcset="imagens/m.png" type="image/png"> <!--A primeira-->
+        <img src="imagens/g.png" alt="Imagem Flexíxvel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos reproduzir áudios em HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/Cool Revenge - Jeremy Blake.mp3" type="audio/mpeg"> <!--A tentativa 1-->
+        <source src="media/Cool Revenge - Jeremy Blake.ogg" type="audio/ogg"> <!--A tentativa 2 - Se tivesse-->
+        <source src="media/Cool Revenge - Jeremy Blake.wav" type="audio/wav"> <!--A tentativa 3 - Se tivesse-->
+        <p>Caso o áudio não tenho reproduzido em seu navegador <a href="media/Cool Revenge - Jeremy Blake.mp3">clique aqui</a> para baixá-lo</p>
+    </audio>
+</body>
+</html>

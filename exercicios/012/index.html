@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="560" poster="imagem/pexels-fmaderebner-869258.jpg" controls> <!-- Aqui a qualidade da imagem que está no parâmetro POSTER não foi  reduzida, mas precisa normalmente para que assim fique rápido de carregar-->
+        <source src="media/Meu-Video-mp4-leve.mp4" type="video/mp4"> <!--Tentará reproduzir esse primeiro - Recomenda o mais leve para colocar por primeiro-->
+        <source src="media/Meu-Video.webm" type="video/webm"> <!--Se o primeiro der errado... - Segundo mais leve e por ai vai-->
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=0WfEXOdUdNqfCVFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/29315013?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:40%;height:40%;" title="Animation Reel"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
