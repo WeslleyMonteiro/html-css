@@ -3,30 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Imagem de Fundo</title>
     <style>
         body{
-            height: 100vh; /*100% da view port*/
+            /*height: 100vh; /*100% da view port
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 20px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
         }
+
+        
+
+        /*Shorthand - background
+
+        color > image > position > repeat > [size - não está sendo possivel colocar ainda mas futuramente de certo então fazer essa propriedade separada] > attachment 
+        */
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam excepturi quo molestiae, dolorem itaque nesciunt provident est, possimus eveniet, modi molestias nam et cupiditate officia cum impedit! Id, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius sed esse harum maiores expedita voluptatem, numquam, magni assumenda, tempora laboriosam repudiandae voluptatibus! Rerum fugiat quaerat, aliquid accusamus vitae laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda amet minus, recusandae voluptatem tempora excepturi quas veritatis ullam ex ipsa, eligendi obcaecati non culpa at omnis dolore, magnam rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, vel error praesentium ex assumenda aspernatur voluptatem sint ut veritatis pariatur culpa rerum eos incidunt quo. Fugit neque enim est similique!
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam excepturi quo molestiae, dolorem itaque nesciunt provident est, possimus eveniet, modi molestias nam et cupiditate officia cum impedit! Id, officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius sed esse harum maiores expedita voluptatem, numquam, magni assumenda, tempora laboriosam repudiandae voluptatibus! Rerum fugiat quaerat, aliquid accusamus vitae laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus assumenda amet minus, recusandae voluptatem tempora excepturi quas veritatis ullam ex ipsa, eligendi obcaecati non culpa at omnis dolore, magnam rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, vel error praesentium ex assumenda aspernatur voluptatem sint ut veritatis pariatur culpa rerum eos incidunt quo. Fugit neque enim est similique!. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, architecto? Eius obcaecati, hic adipisci error quasi rem, iste impedit tempora, commodi quam molestias sequi soluta debitis voluptas vero placeat ducimus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odio quidem quaerat maiores at architecto nam molestiae, consequuntur sed ipsum, debitis maxime ratione, dolore id perspiciatis error aliquid dolorem nihil! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, recusandae eaque? Iure a soluta nobis ratione saepe porro aperiam reprehenderit ex suscipit? Non sint magnam eaque eum minus vero magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam vitae doloribus in architecto soluta, placeat saepe obcaecati deleniti illo dolor iste officia? Perferendis molestiae quia optio commodi eligendi velit beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, voluptate. Deleniti, error iure, eius molestias necessitatibus laborum minus sunt aspernatur alias ullam doloremque officia incidunt sint suscipit, amet illum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ut nobis deserunt beatae animi, in, necessitatibus ipsam ad laboriosam magnam ducimus explicabo eum dicta harum! Eligendi expedita magnam voluptate blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dicta debitis laudantium eaque praesentium quam enim ducimus ut ullam dolorem saepe consequatur aliquid porro fugit doloribus ipsum facilis, sunt sapiente. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, saepe tempora. Ex, dolorem sequi recusandae vel molestias autem eaque officia quibusdam quo, consequatur sint dolorum. Dignissimos commodi architecto sequi odio.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius placeat voluptatum sapiente aspernatur, inventore odio delectus quidem nemo. Atque sint optio sunt possimus molestias quas accusantium quam non officiis quae!
         </p>
     </main>
 </body>
